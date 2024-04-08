@@ -4,38 +4,46 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-witdh, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
         <title>Calculator</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
+
         <div class="container">
-            <div class="total">
-                0
+
+            <div class="result">
+                <span>0</span>
             </div>
+
             <div class="buttons">
-                <button class="item item-grey">C</button>
-                <button class="item item-grey">+/-</button>
-                <button class="item item-grey">%</button>
-                <button class="item item-orange">/</button>
-                <button class="item item-darkgrey">7</button>
-                <button class="item item-darkgrey">8</button>
-                <button class="item item-darkgrey">9</button>
-                <button class="item item-orange">x</button>
-                <button class="item item-darkgrey">4</button>
-                <button class="item item-darkgrey">5</button>
-                <button class="item">6</button>
-                <button class="item item-orange">-</button>
-                <button class="item">1</button>
-                <button class="item">2</button>
-                <button class="item">3</button>
-                <button class="item item-orange">+</button>
-                <button class="item">0</button>
-                <button class="item">.</button>
-                <button class="item item-orange">=</button>
-                
+               <button class="item item1 clear" value="AC">AC</button>
+               <button class="item item1 negative" value="+/-">+/-</button>
+               <button class="item persent sign" value="%">%</button>
+               <button class="item item3 sign" value="/">/</button>
+               <button class="item numbers" value="7">7</button>
+               <button class="item numbers" value="8">8</button>
+               <button class="item numbers" value="9">9</button>
+               <button class="item item3 sign" value="x">x</button>
+               <button class="item numbers" value="4">4</button>
+               <button class="item numbers" value="5">5</button>
+               <button class="item numbers" value="6">6</button>
+               <button class="item item3 sign" value="-">-</button>
+               <button class="item numbers" value="1">1</button>
+               <button class="item numbers" value="2">2</button>
+               <button class="item numbers" value="3">3</button>
+               <button class="item item3 sign" value="+">+</button>
+               <button class="item itemZero numbers" value="0">0</button>
+               <button class="item comma" value=",">,</button>
+               <button class="item item3 equals" value="=">=</button>
 
 
             </div>
+
         </div>
+        
+
+
+
+        <script src="script.js"></script>
     </body>
 </html>

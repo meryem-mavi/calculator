@@ -1,48 +1,83 @@
-* {
-    margin: 0;
+*{
     padding: 0;
-    box-sizing: border-box;
+    margin: 0;
+}
+html, body, #fullheight{
+    height: 100%;
     font-family: Arial, Helvetica, sans-serif;
 }
-html, body {
-    background-color: black;
-    min-height: 100% !important;
-    width: 100%;
-
+body{
+    box-sizing: border-box;
+    background-color: #343434;
+    
 }
-.total {
-    color: white;
-    text-align: end;
-    font-size: 100px;
-    margin: 10px;
-    margin-right: 20px;
-}
-.container {
-    display: flex;
-    flex-direction: column;
-    margin: 5px auto;
-    max-width: 400px;
+.container{
+    margin: 0 auto;
+    margin-top: 50px;
     padding: 10px;
-    border: 1px solid #ccc;
-
+    width: 390px;
+    height: 700px;
+    background-color: #000;
+    box-shadow: 5px 5px 10px 10px;
+    border-radius: 30px;
+}
+.result{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color: #fff;
+    height: 25%;
+}
+.result span {
+    font-size: 100px;
+    justify-self: flex-end;
+    padding: 10px;
 }
 .buttons {
+    width: 100%;
+    height: 50%; 
+    background-color: #000;
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
 }
-.item {
-    height: 75px;
-    font-size: 40px;
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: #fff;
     border-radius: 50%;
-    border: 1px solid transparent;
-    margin: 5px;
+    width: 80px;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    align-self: center;
+    justify-self: center;
 }
-.item-grey {
-    background-color: rgb(132, 132, 132);
+.persent{
+    background-color: #A5A5A5;
+    border: none;
+    color: #000;
 }
-.item-orange {
-    background-color: #ff8431;
+.item1{
+    background-color: #A5A5A5;
+    border: none;
 }
-.item-darkgrey {
-    background-color: rgb(55, 55, 55);
+.item3{
+    background-color: #FF9F0A;
+    border: none;
+}
+.numbers, .comma{
+    background-color: #343434;
+    border: none;
+}
+.negative, .clear{
+    color: #000;
+}
+.itemZero{
+    background-color: #343434;
+    width: 170px;
+    border-radius: 135px;
+    grid-column: span 2;
+    border: none;
 }
